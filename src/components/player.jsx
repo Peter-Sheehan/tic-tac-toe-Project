@@ -6,7 +6,7 @@ export default function Player({initialName, symbol, isActive}) {
     function handleEditClick(){
         setIsEditing((editing) => !editing);
     }
-
+    
     function handleChange(event){
         setPlayerName(event.target.value);
     }
